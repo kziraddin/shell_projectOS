@@ -7,6 +7,7 @@
 using namespace std;
 
 /* ZIRADDIN KAZIMLI ZIKO */
+/* OPERATING SYSTEMS PROJECT1 */
 //https://github.com/kziraddin/shell_projectOS
 
 //to compile use below format
