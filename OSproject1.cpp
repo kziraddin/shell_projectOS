@@ -1,9 +1,10 @@
 #include <iostream>
-#include <string>
+#include <cstring>
 #include <vector>
 #include <cstdlib>
 #include <unistd.h>
 #include <sys/wait.h>
+#include <cerrno>
 using namespace std;
 
 /* ZIRADDIN KAZIMLI ZIKO */
@@ -11,7 +12,7 @@ using namespace std;
 //https://github.com/kziraddin/shell_projectOS
 
 //to compile use below format
-/* g++ -std=c++11 file_name.cpp -o you_decide */
+/* g++ -std=c++11 OSproject1.cpp*/
 
 vector<string>command_history;
 void display_history(){ 
@@ -32,7 +33,7 @@ void clear_history(){
 }
 
 #define max_children 3
-//show process ID
+//show process IDx
 #include <iostream>
 #include <unistd.h> // for getpid() and fork() functions
 #include <sys/wait.h> // for waitpid() function
